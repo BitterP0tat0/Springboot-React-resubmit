@@ -1,0 +1,6 @@
+
+public class Sample {
+    public static void main(String[] args) {
+        System.out.println("This is a sample Java file for testing GitHub language detection.");
+    }
+}
