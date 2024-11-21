@@ -6,15 +6,13 @@ public class Student {
     private final UUID studentId;
     private final String firstname;
     private final String familyname;
-    private final int age;
     private final String email;
     private final Gender gender;
 
-    public Student(UUID studentId, String firstname, String familyname, int age, String email, Gender gender) {
+    public Student(UUID studentId, String firstname, String familyname, String email, Gender gender) {
         this.studentId = studentId;
         this.firstname = firstname;
         this.familyname = familyname;
-        this.age = age;
         this.email = email;
         this.gender = gender;
     }
@@ -35,10 +33,6 @@ public class Student {
         return familyname;
     }
 
-    public int getAge() {
-        return age;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -49,8 +43,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student [studentId=" + studentId + ", firstname=" + firstname + ", familyname=" + familyname + ", age="
-                + age + ", email=" + email + ", gender=" + gender + "]";
+        return "Student [studentId=" + studentId + ", firstname=" + firstname + ", familyname=" + familyname + "email="
+                + email + ", gender=" + gender + "]";
     }
 
 }

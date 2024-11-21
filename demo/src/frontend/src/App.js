@@ -75,6 +75,7 @@ class App extends Component {
           dataIndex: "familyname",
           key: "familyname",
         },
+
         {
           title: "Gender",
           dataIndex: "gender",
