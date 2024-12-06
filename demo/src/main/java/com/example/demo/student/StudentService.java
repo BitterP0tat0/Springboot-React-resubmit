@@ -17,4 +17,8 @@ public class StudentService {
     public List<Student> getAllStudents() {
         return studentDataAccessService.selectAllStudents();
     }
+
+    public void saveStudent(Student student) {
+        studentDataAccessService.save(student);
+    }
 }

@@ -18,7 +18,8 @@ public class Student {
     }
 
     public enum Gender {
-        Male, Female;
+        MALE, FEMALE;
+
     }
 
     public UUID getStudentId() {
